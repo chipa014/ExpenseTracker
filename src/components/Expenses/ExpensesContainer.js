@@ -8,7 +8,6 @@ import ExpensesList from "./ExpensesList";
 import "./ExpensesContainer.css";
 
 const ExpenseContainer = function (props) {
-  console.log("ExpenseContainer updated!");
   const currentYear = new Date().getFullYear();
   const [year, setYear] = useState(currentYear);
 
